@@ -1,0 +1,185 @@
+DIGEST 0658fac8a577f6af68c23f2adfac4250
+FFluxC
+R63:67 Coq.Arith.Arith <> <> lib
+R69:72 Coq.Lists.List <> <> lib
+ind 86:91 <> Opcode
+constr 102:108 <> OP_HALT
+constr 112:117 <> OP_NOP
+constr 121:127 <> OP_JUMP
+constr 131:139 <> OP_JUMPIF
+constr 143:149 <> OP_CALL
+constr 153:158 <> OP_RET
+def 173:181 <> MAX_STACK
+R185:187 Coq.Init.Datatypes <> nat ind
+ind 208:212 <> frame
+constr 223:226 <> RetA
+R233:236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R230:232 Coq.Init.Datatypes <> nat ind
+R237:241 FluxC <> frame:3 ind
+def 255:259 <> stack
+R271:274 Coq.Init.Datatypes <> list ind
+R276:280 FluxC <> frame ind
+ind 294:299 <> config
+constr 315:320 <> Halted
+constr 347:353 <> Running
+R332:335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R324:327 Coq.Init.Datatypes <> list ind
+R329:331 Coq.Init.Datatypes <> nat ind
+R336:341 FluxC <> config:5 ind
+R360:363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R357:359 Coq.Init.Datatypes <> nat ind
+R369:372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R364:368 FluxC <> stack def
+R381:384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R373:376 Coq.Init.Datatypes <> list ind
+R378:380 Coq.Init.Datatypes <> nat ind
+R385:390 FluxC <> config:5 ind
+ind 404:407 <> step
+constr 443:448 <> S_Halt
+constr 543:548 <> S_Jump
+constr 690:697 <> S_JumpIf
+constr 878:883 <> S_Call
+constr 1088:1095 <> S_Return
+constr 1236:1242 <> S_Basic
+R417:420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R411:416 FluxC <> config ind
+R427:430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R421:426 FluxC <> config ind
+R466:470 FluxC <> stack def
+binder 460:462 <> stk:9
+R480:483 Coq.Init.Datatypes <> list ind
+R485:487 Coq.Init.Datatypes <> nat ind
+binder 474:476 <> mem:10
+R497:500 FluxC <> step:7 ind
+R527:532 FluxC <> Halted constr
+R534:536 Coq.Init.Datatypes <> nil constr
+R503:509 FluxC <> Running constr
+R517:519 FluxC <> stk:9 var
+R521:523 FluxC <> mem:10 var
+R565:567 Coq.Init.Datatypes <> nat ind
+binder 560:561 <> pc:11
+R577:581 FluxC <> stack def
+binder 571:573 <> stk:12
+R591:594 Coq.Init.Datatypes <> list ind
+R596:598 Coq.Init.Datatypes <> nat ind
+binder 585:587 <> mem:13
+R606:608 Coq.Init.Datatypes <> nat ind
+binder 602:602 <> d:14
+R629:632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R620:622 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R619:619 FluxC <> d:14 var
+R633:636 FluxC <> step:7 ind
+R660:666 FluxC <> Running constr
+R671:673 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R669:670 FluxC <> pc:11 var
+R674:674 FluxC <> d:14 var
+R677:679 FluxC <> stk:12 var
+R681:683 FluxC <> mem:13 var
+R639:645 FluxC <> Running constr
+R647:648 FluxC <> pc:11 var
+R650:652 FluxC <> stk:12 var
+R654:656 FluxC <> mem:13 var
+R714:716 Coq.Init.Datatypes <> nat ind
+binder 709:710 <> pc:15
+R726:730 FluxC <> stack def
+binder 720:722 <> stk:16
+R740:743 Coq.Init.Datatypes <> list ind
+R745:747 Coq.Init.Datatypes <> nat ind
+binder 734:736 <> mem:17
+R755:758 Coq.Init.Datatypes <> bool ind
+binder 751:751 <> b:18
+R766:768 Coq.Init.Datatypes <> nat ind
+binder 762:762 <> d:19
+R789:792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R780:782 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R779:779 FluxC <> d:19 var
+R793:796 FluxC <> step:7 ind
+R828:834 FluxC <> Running constr
+R840:840 FluxC <> b:18 var
+R859:859 Coq.Init.Datatypes <> S constr
+R861:862 FluxC <> pc:15 var
+R849:851 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R847:848 FluxC <> pc:15 var
+R852:852 FluxC <> d:19 var
+R865:867 FluxC <> stk:16 var
+R869:871 FluxC <> mem:17 var
+R799:805 FluxC <> Running constr
+R807:808 FluxC <> pc:15 var
+R810:812 FluxC <> stk:16 var
+R814:816 FluxC <> mem:17 var
+R900:902 Coq.Init.Datatypes <> nat ind
+binder 895:896 <> pc:20
+R912:916 FluxC <> stack def
+binder 906:908 <> stk:21
+R926:929 Coq.Init.Datatypes <> list ind
+R931:933 Coq.Init.Datatypes <> nat ind
+binder 920:922 <> mem:22
+R941:943 Coq.Init.Datatypes <> nat ind
+binder 937:937 <> d:23
+R964:967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R955:957 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R954:954 FluxC <> d:23 var
+R996:1005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R979:981 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R969:974 Coq.Init.Datatypes <> length def
+R976:978 FluxC <> stk:21 var
+R982:990 FluxC <> MAX_STACK def
+R1006:1009 FluxC <> step:7 ind
+R1041:1047 FluxC <> Running constr
+R1052:1054 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1050:1051 FluxC <> pc:20 var
+R1055:1055 FluxC <> d:23 var
+R1070:1073 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1059:1062 FluxC <> RetA constr
+R1065:1065 Coq.Init.Datatypes <> S constr
+R1067:1068 FluxC <> pc:20 var
+R1074:1076 FluxC <> stk:21 var
+R1079:1081 FluxC <> mem:22 var
+R1012:1018 FluxC <> Running constr
+R1020:1021 FluxC <> pc:20 var
+R1023:1025 FluxC <> stk:21 var
+R1027:1029 FluxC <> mem:22 var
+R1112:1114 Coq.Init.Datatypes <> nat ind
+binder 1107:1108 <> pc:24
+R1124:1128 FluxC <> stack def
+binder 1118:1120 <> stk:25
+R1138:1141 Coq.Init.Datatypes <> list ind
+R1143:1145 Coq.Init.Datatypes <> nat ind
+binder 1132:1134 <> mem:26
+R1175:1184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1158:1160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1155:1157 FluxC <> stk:25 var
+R1168:1171 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1161:1164 FluxC <> RetA constr
+R1166:1167 FluxC <> pc:24 var
+R1172:1174 Coq.Init.Datatypes <> nil constr
+R1185:1188 FluxC <> step:7 ind
+R1212:1218 FluxC <> Running constr
+R1220:1221 FluxC <> pc:24 var
+R1223:1225 Coq.Init.Datatypes <> nil constr
+R1227:1229 FluxC <> mem:26 var
+R1191:1197 FluxC <> Running constr
+R1199:1200 FluxC <> pc:24 var
+R1202:1204 FluxC <> stk:25 var
+R1206:1208 FluxC <> mem:26 var
+R1259:1261 Coq.Init.Datatypes <> nat ind
+binder 1254:1255 <> pc:27
+R1271:1275 FluxC <> stack def
+binder 1265:1267 <> stk:28
+R1285:1288 Coq.Init.Datatypes <> list ind
+R1290:1292 Coq.Init.Datatypes <> nat ind
+binder 1279:1281 <> mem:29
+R1302:1305 FluxC <> step:7 ind
+R1329:1335 FluxC <> Running constr
+R1338:1338 Coq.Init.Datatypes <> S constr
+R1340:1341 FluxC <> pc:27 var
+R1344:1346 FluxC <> stk:28 var
+R1348:1350 FluxC <> mem:29 var
+R1308:1314 FluxC <> Running constr
+R1316:1317 FluxC <> pc:27 var
+R1319:1321 FluxC <> stk:28 var
+R1323:1325 FluxC <> mem:29 var
+prf 1363:1378 <> fluxc_terminates
+R1385:1390 FluxC <> config ind
+binder 1381:1381 <> c:30
+R1395:1398 Coq.Init.Logic <> True ind

@@ -1,0 +1,169 @@
+DIGEST 720bd94203115736856d3f5cac165085
+FTuringIncompleteness
+R190:194 Coq.Arith.Arith <> <> lib
+R196:199 Coq.Lists.List <> <> lib
+R201:203 Coq.micromega.Lia <> <> lib
+ind 217:222 <> Opcode
+constr 234:237 <> Halt
+constr 241:243 <> Nop
+constr 247:250 <> Jump
+constr 254:259 <> JumpIf
+constr 263:266 <> Call
+constr 270:272 <> Ret
+def 286:294 <> max_stack
+R298:300 Coq.Init.Datatypes <> nat ind
+ind 320:324 <> frame
+constr 329:332 <> RetA
+R340:342 Coq.Init.Datatypes <> nat ind
+binder 335:336 <> pc:5
+def 357:361 <> stack
+R366:369 Coq.Init.Datatypes <> list ind
+R371:375 TuringIncompleteness <> frame ind
+ind 388:393 <> config
+constr 405:410 <> Halted
+constr 414:420 <> Running
+R428:430 Coq.Init.Datatypes <> nat ind
+binder 423:424 <> pc:8
+R440:444 TuringIncompleteness <> stack def
+binder 434:436 <> stk:9
+R454:457 Coq.Init.Datatypes <> list ind
+R459:461 Coq.Init.Datatypes <> nat ind
+binder 448:450 <> mem:10
+ind 476:479 <> step
+constr 515:523 <> step_halt
+constr 579:587 <> step_jump
+constr 678:688 <> step_jumpif
+constr 814:822 <> step_call
+constr 962:969 <> step_ret
+constr 1073:1082 <> step_basic
+R489:492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R483:488 TuringIncompleteness <> config ind
+R499:502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R493:498 TuringIncompleteness <> config ind
+binder 534:536 <> stk:13
+binder 538:540 <> mem:14
+R543:546 TuringIncompleteness <> step:11 ind
+R568:573 TuringIncompleteness <> Halted constr
+R549:555 TuringIncompleteness <> Running constr
+R559:561 TuringIncompleteness <> stk:13 var
+R563:565 TuringIncompleteness <> mem:14 var
+binder 598:599 <> pc:15
+binder 601:603 <> stk:16
+binder 605:607 <> mem:17
+binder 609:609 <> d:18
+R617:620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R613:615 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R612:612 TuringIncompleteness <> d:18 var
+R621:624 TuringIncompleteness <> step:11 ind
+R648:654 TuringIncompleteness <> Running constr
+R659:661 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R657:658 TuringIncompleteness <> pc:15 var
+R662:662 TuringIncompleteness <> d:18 var
+R665:667 TuringIncompleteness <> stk:16 var
+R669:671 TuringIncompleteness <> mem:17 var
+R627:633 TuringIncompleteness <> Running constr
+R635:636 TuringIncompleteness <> pc:15 var
+R638:640 TuringIncompleteness <> stk:16 var
+R642:644 TuringIncompleteness <> mem:17 var
+binder 699:700 <> pc:19
+binder 702:704 <> stk:20
+binder 706:708 <> mem:21
+R713:716 Coq.Init.Datatypes <> bool ind
+binder 711:711 <> b:22
+binder 719:719 <> d:23
+R727:730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R723:725 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R722:722 TuringIncompleteness <> d:23 var
+R731:734 TuringIncompleteness <> step:11 ind
+R764:770 TuringIncompleteness <> Running constr
+R776:776 TuringIncompleteness <> b:22 var
+R795:795 Coq.Init.Datatypes <> S constr
+R797:798 TuringIncompleteness <> pc:19 var
+R785:787 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R783:784 TuringIncompleteness <> pc:19 var
+R788:788 TuringIncompleteness <> d:23 var
+R801:803 TuringIncompleteness <> stk:20 var
+R805:807 TuringIncompleteness <> mem:21 var
+R737:743 TuringIncompleteness <> Running constr
+R745:746 TuringIncompleteness <> pc:19 var
+R748:750 TuringIncompleteness <> stk:20 var
+R752:754 TuringIncompleteness <> mem:21 var
+binder 833:834 <> pc:24
+binder 836:838 <> stk:25
+binder 840:842 <> mem:26
+binder 844:844 <> d:27
+R852:855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R848:850 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R847:847 TuringIncompleteness <> d:27 var
+R878:887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R866:868 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R856:861 Coq.Init.Datatypes <> length def
+R863:865 TuringIncompleteness <> stk:25 var
+R869:877 TuringIncompleteness <> max_stack def
+R888:891 TuringIncompleteness <> step:11 ind
+R915:921 TuringIncompleteness <> Running constr
+R926:928 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R924:925 TuringIncompleteness <> pc:24 var
+R929:929 TuringIncompleteness <> d:27 var
+R944:947 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R933:936 TuringIncompleteness <> RetA constr
+R939:939 Coq.Init.Datatypes <> S constr
+R941:942 TuringIncompleteness <> pc:24 var
+R948:950 TuringIncompleteness <> stk:25 var
+R953:955 TuringIncompleteness <> mem:26 var
+R894:900 TuringIncompleteness <> Running constr
+R902:903 TuringIncompleteness <> pc:24 var
+R905:907 TuringIncompleteness <> stk:25 var
+R909:911 TuringIncompleteness <> mem:26 var
+binder 980:981 <> pc:28
+binder 983:985 <> stk:29
+binder 987:989 <> mem:30
+R1012:1021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R995:997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R992:994 TuringIncompleteness <> stk:29 var
+R1005:1008 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R998:1001 TuringIncompleteness <> RetA constr
+R1003:1004 TuringIncompleteness <> pc:28 var
+R1009:1011 Coq.Init.Datatypes <> nil constr
+R1022:1025 TuringIncompleteness <> step:11 ind
+R1049:1055 TuringIncompleteness <> Running constr
+R1057:1058 TuringIncompleteness <> pc:28 var
+R1060:1062 Coq.Init.Datatypes <> nil constr
+R1064:1066 TuringIncompleteness <> mem:30 var
+R1028:1034 TuringIncompleteness <> Running constr
+R1036:1037 TuringIncompleteness <> pc:28 var
+R1039:1041 TuringIncompleteness <> stk:29 var
+R1043:1045 TuringIncompleteness <> mem:30 var
+binder 1093:1094 <> pc:31
+binder 1096:1098 <> stk:32
+binder 1100:1102 <> mem:33
+R1105:1108 TuringIncompleteness <> step:11 ind
+R1132:1138 TuringIncompleteness <> Running constr
+R1141:1141 Coq.Init.Datatypes <> S constr
+R1143:1144 TuringIncompleteness <> pc:31 var
+R1147:1149 TuringIncompleteness <> stk:32 var
+R1151:1153 TuringIncompleteness <> mem:33 var
+R1111:1117 TuringIncompleteness <> Running constr
+R1119:1120 TuringIncompleteness <> pc:31 var
+R1122:1124 TuringIncompleteness <> stk:32 var
+R1126:1128 TuringIncompleteness <> mem:33 var
+prf 1222:1240 <> pc_always_increases
+binder 1251:1251 <> c:34
+binder 1253:1254 <> c':35
+R1266:1271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1257:1260 TuringIncompleteness <> step ind
+R1262:1262 TuringIncompleteness <> c:34 var
+R1264:1265 TuringIncompleteness <> c':35 var
+R1278:1279 TuringIncompleteness <> c':35 var
+R1290:1295 TuringIncompleteness <> Halted constr
+R1300:1303 Coq.Init.Logic <> True ind
+R1309:1315 TuringIncompleteness <> Running constr
+R1340:1340 TuringIncompleteness <> c:34 var
+R1355:1361 TuringIncompleteness <> Running constr
+R1381:1384 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1376:1378 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R1387:1389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1385:1386 TuringIncompleteness <> c':35 var
+R1390:1395 TuringIncompleteness <> Halted constr
+R1405:1410 TuringIncompleteness <> Halted constr
+R1415:1419 Coq.Init.Logic <> False ind
