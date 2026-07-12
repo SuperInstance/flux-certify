@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
+    license="MIT",
     name='flux-certify',
     version='0.1.0',
     description='Compile FLUX-C guard constraints and generate proof certificates',
